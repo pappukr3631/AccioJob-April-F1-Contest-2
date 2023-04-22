@@ -1,0 +1,195 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Montserrat;
+    font-style: normal;
+    border: 4px solid lawngreen;
+    /* background-color: #1E1E1E; */
+}
+
+/* .nav-bar{
+    display: flex;
+    background-color: aqua;
+    height: 86px;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+ul {
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: #FCAF02;
+    width: 100%;
+    height: 86px;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    font-size: 28px;
+}
+
+#logo {
+    position: absolute;
+    left: 58px;
+    right: 10px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+/* Section Intro */
+
+.heading {
+    position: absolute;
+    width: 736px;
+    height: 78px;
+    left: 58px;
+    top: 174px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+.para {
+    position: absolute;
+    width: 50%;
+    left: 63px;
+    top: 285px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.jeff {
+    position: absolute;
+    height: 482px;
+    left: 840px;
+    top: 173px;
+}
+
+.login {
+    position: absolute;
+    width: 323px;
+    height: 66px;
+    left: 63px;
+    top: 650px;
+
+    background: #FCAF02;
+    border-radius: 500px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+/* Section Form */
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us {
+    
+    position: absolute;
+    width: 369px;
+    height: 78px;
+    left: 63px;
+    top: 801px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FCAF02;
+
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    position: absolute;
+    color: #FCAF02;
+
+    width: 1570px;
+    height: 82px;
+}
+
+div {
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+
+    padding: 24px;
+    padding-left: 50px;
+}
+
+input {
+    color: #FCAF02;
+}
+
+.name {
+    position: absolute;
+    width: 917px;
+    height: 34px;
+    left: 121px;
+    top: 937px;
+    
+}
+
+.email {
+    position: absolute;
+    width: 917px;
+    height: 34px;
+    left: 121px;
+    top: 1069px;
+}
+
+.mobile {
+    position: absolute;
+    width: 426.38px;
+    height: 34px;
+    left: 121px;
+    top: 1201px;
+}
+
+.city {
+    position: absolute;
+    width: 447.99px;
+    height: 34px;
+    left: 926.94px;
+    top: 1201px;
+}
+
+.submit {
+    position: absolute;
+    width: 219px;
+    height: 39px;
+    left: 738px;
+    top: 1347px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+}
+
+/* .box-1 {
+    position: absolute;
+width: 917px;
+height: 34px;
+left: 121px;
+} */

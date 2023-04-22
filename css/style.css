@@ -3,25 +3,28 @@
     padding: 0%;
     font-family: Montserrat;
     font-style: normal;
-    border: 4px solid lawngreen;
-    /* background-color: #1E1E1E; */
+    /* border: 4px solid lawngreen; */
+    background-color: #1E1E1E;
 }
 
-/* .nav-bar{
+.nav-bar{
     display: flex;
-    background-color: aqua;
     height: 86px;
-    justify-content: center;
-    align-items: center;
-} */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
 
+li a {
+    color: black;
+}
 
 ul {
     list-style: none;
-    position: absolute;
     display: flex;
+    position: absolute;
     flex-direction: row;
     background-color: #FCAF02;
+    /* color: #1E1E1E; */
     width: 100%;
     height: 86px;
     justify-content: end;
@@ -31,16 +34,20 @@ ul {
 }
 
 #logo {
-    position: absolute;
-    left: 58px;
-    right: 10px;
+    position: relative;
+    padding-right: 30%;
     font-weight: 700;
     font-size: 32px;
+    color: black;
+    background-color: #FCAF02;
 }
 
 a {
     text-decoration: none;
     padding-right: 50px;
+    color: #1E1E1E;
+    z-index: 10;
+    background-color: #FCAF02;
 }
 
 /* Section Intro */
@@ -51,6 +58,7 @@ a {
     height: 78px;
     left: 58px;
     top: 174px;
+    color: white;
 
     font-style: normal;
     font-weight: 700;
@@ -63,6 +71,8 @@ a {
     width: 50%;
     left: 63px;
     top: 285px;
+
+    color: white;
 
 
     font-style: normal;
@@ -102,7 +112,7 @@ a {
 }
 
 .contact-us {
-    
+
     position: absolute;
     width: 369px;
     height: 78px;
@@ -120,24 +130,25 @@ a {
 .box-1 {
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
-    position: absolute;
-    color: #FCAF02;
-
-    width: 1570px;
-    height: 82px;
+    border: 2px solid #FCAF02;
 }
 
 div {
-    border: 2px solid #FCAF02;
     border-radius: 100px;
-
     padding: 24px;
     padding-left: 50px;
 }
 
 input {
+    border: none;
+    width: 80%;
+    height: 34px;
+    box-sizing: border-box;
     color: #FCAF02;
+}
+
+input:focus {
+    outline: none;
 }
 
 .name {
@@ -146,7 +157,7 @@ input {
     height: 34px;
     left: 121px;
     top: 937px;
-    
+
 }
 
 .email {
@@ -175,16 +186,24 @@ input {
 
 .submit {
     position: absolute;
-    width: 219px;
+    width: 300px;
     height: 39px;
-    left: 738px;
+    left: 38%;
     top: 1347px;
 
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
+    background-color: #FCAF02;
+    border: none;
+    color: white;
 
+    justify-content: center;
+}
+.submit input {
+    background-color: #FCAF02;
+    color: black;
+    font-weight: 700;
+font-size: 32px;
+justify-content: center;
+align-content: center;
 }
 
 /* .box-1 {
@@ -193,3 +212,33 @@ width: 917px;
 height: 34px;
 left: 121px;
 } */
+
+/* Section table */
+
+table {
+    /* box-sizing: border-box; */
+
+    position: absolute;
+    width: 90%;
+    height: 655px;
+    left: 75px;
+    top: 1524px;
+    color: #FCAF02;
+
+    border: 2px solid #FCAF02;;
+}
+
+td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 28px;
+    height: 60px;
+    text-align: left;
+}
+
+#tfoot td{
+    background-color: #FCAF02;
+    color: black;
+}
